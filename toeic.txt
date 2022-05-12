@@ -666,8 +666,9 @@ function displayBridgeSpeakingWriting() {
                                                             </td>
                             <!-- //버튼 추가 -->
                         </tr>
-                                                <tr class=''>
-                            	<td> ★ 	제464회</td>                            
+                                                <tr class='ing' style="">
+
+                            	<td> ★ 제464회</td>                            
                             <td >
 
                                 2022.06.26                                <span class="color_01">(일)</span>                                <br>오전 9시20분                                                            </td>
@@ -682,7 +683,10 @@ function displayBridgeSpeakingWriting() {
                                                             </td>
                             <!-- 버튼 추가 (접수하기 / 접수예정) -->
                             <td >
-                                                                <span class="btn_normal type_disable" name="548">접수예정</span>
+                                
+                                                                <a href="javascript:receiptLink('TOE'	,'TOE_464','toeEXR_91','11927','toe','2022-06-26 00:00:00');"
+                                    class="btn_normal type_03">접수하기</a>
+                                
                                                             </td>
                             <!-- //버튼 추가 -->
                         </tr>
